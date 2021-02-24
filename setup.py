@@ -10,9 +10,9 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='example',
     version='0.0.1',
-    description='Sample Python Library template',
+    description='Example Python Library template',
     long_description=readme,
     author='Alan Yee',
     author_email='alanyee@users.noreply.github.com',
