@@ -1,6 +1,6 @@
 name: Unit Tests
 
-on: [push, pull_request]
+on: [pull_request]
 
 jobs:
   build:
@@ -24,7 +24,7 @@ jobs:
     - name: Lint with pylint
       run: |
         # stop the build if there are Python syntax errors or undefined names
-        python -m pylint --disable=all -e W0311 --jobs=0 --indent-string='  ' **/*.py
+        python -m pylint --disable=all -e W0311 --jobs=0 **/*.py
     - name: Test with pytest
       run: |
         # pytest
