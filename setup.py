@@ -18,5 +18,6 @@ setup(
     author_email='alanyee@users.noreply.github.com',
     url='https://github.com/alanyee/example-py',
     license=license,
-    packages=find_packages(exclude=('tests', 'docs'))
+    packages=find_packages(exclude=('tests', 'docs')),
+    include_package_data=True
 )
