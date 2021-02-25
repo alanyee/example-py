@@ -26,6 +26,9 @@ jobs:
       run: |
         # stop the build if there are Python syntax errors or undefined names
         python -m pylint --disable=all -e W0311 --jobs=0 **/*.py
+    - name: Check types with mypy
+      run: |
+        python -m mypy **/*.py
     - name: Test with pytest
       run: |
         python -m pytest -s -v
