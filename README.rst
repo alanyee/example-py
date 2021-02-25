@@ -14,7 +14,7 @@ Assuming that you have Python 3 installed, set up your environment and install t
 
 .. code-block:: sh
 
-    $ git clone hhttps://github.com/alanyee/example-py
+    $ git clone https://github.com/alanyee/example-py
     $ cd example-py
     $ python3 -m venv venv
     ...
