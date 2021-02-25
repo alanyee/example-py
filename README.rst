@@ -47,3 +47,10 @@ You can generate the docs yourself. If the docs have not been generated already:
     # Add ``modules`` to index.rst
     $ sphinx-apidoc -o . .. ../setup.py 
     $ make html
+
+If you are making changes to documentation, run:
+
+.. code-block:: sh
+
+    $ sphinx-apidoc -o . .. ../setup.py -f
+    $ make html
