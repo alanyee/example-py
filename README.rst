@@ -29,3 +29,28 @@ You can run tests in all supported Python versions using ``pytest``.
 
     $ python -m pip install -e '.[testing]'
     $ python -m pytest -s -v
+
+Generating the Docs
+~~~~~~~~~~~~~
+You can generate the docs yourself. If the docs have not been generated already:
+
+.. code-block:: sh
+
+    $ python -m pip install -r requirements-docs.txt
+    $ mkdir docs && cd docs
+    $ sphinx-quickstart
+    ...
+    # After the files are generated,
+    # Uncomment ``import os``, ``import sys``, and ``sys.path.insert(0, os.path.abspath('.'))``
+    # Change `sys.path.insert(0, os.path.abspath('.'))`` to `sys.path.insert(0, os.path.abspath('..'))``
+    # Add ``'sphinx.ext.autodoc'`` to the ``extensions`` list
+    # Add ``modules`` to index.rst
+    $ sphinx-apidoc -o . .. ../setup.py 
+    $ make html
+
+If you are making changes to documentation, run:
+
+.. code-block:: sh
+
+    $ sphinx-apidoc -o . .. ../setup.py -f
+    $ make html
