@@ -13,4 +13,4 @@ ___________________
 """
 
 def test_main():
-    assert TEST_COW == main.say()
+    assert TEST_COW == main.say("Moo!")
