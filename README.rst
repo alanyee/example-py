@@ -44,6 +44,6 @@ You can generate the docs yourself. If the docs have not been generated already:
     # Uncomment ``import os``, ``import sys``, and ``sys.path.insert(0, os.path.abspath('.'))``
     # Change `sys.path.insert(0, os.path.abspath('.'))`` to `sys.path.insert(0, os.path.abspath('..'))``
     # Add ``'sphinx.ext.autodoc'`` to the ``extensions`` list
-    # Add ``'setup.py'`` to ``exclude_patterns`` list
     # Add ``modules`` to index.rst
+    $ sphinx-apidoc -o . .. ../setup.py 
     $ make html
