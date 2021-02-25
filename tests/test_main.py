@@ -1,8 +1,9 @@
-# -*- coding: utf-8 -*-
+from example import main
 
-COW = """
+
+TEST_COW = """
 ___________________
-< {} >
+< Moo! >
  -------------------
         \   ^__^
          \  (oo)\_______
@@ -11,9 +12,5 @@ ___________________
                 ||     ||
 """
 
-def say(cowsay):
-    return COW.format(cowsay)
- 
-def main(cowsay="Moo!"):
-    """Example"""
-    print(say(cowsay))
+def test_main():
+    assert TEST_COW == main.say("Moo!")
