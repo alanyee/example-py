@@ -11,6 +11,9 @@ ___________________
                 ||     ||
 """
 
+def say(cowsay):
+    return COW.format(cowsay)
+ 
 def main(cowsay="Moo!"):
     """Example"""
-    print(COW.format(cowsay))
+    print(say(cowsay))
