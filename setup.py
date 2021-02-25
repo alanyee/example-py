@@ -19,5 +19,9 @@ setup(
     url='https://github.com/alanyee/example-py',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
-    include_package_data=True
+    include_package_data=True,
+    python_requires='>=3.6',
+    extra_require={
+        'testing': ["pytest"]
+    }
 )
