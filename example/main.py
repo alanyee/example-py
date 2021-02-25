@@ -6,13 +6,13 @@ ___________________
 < {} >
 -------------------
         \   ^__^
-         \  (oo)\_______
+         \  (o )\_______
             (__)\       )\/\
                 ||----w |
                 ||     ||
 """
 
-def say(cowsay: str) -> int:
+def say(cowsay: str) -> str:
     """Interpolates what the cow says
     Reference: https://sphinx-rtd-tutorial.readthedocs.io/en/latest/docstrings.html
     :param cowsay: string for what the cow says
