@@ -6,7 +6,7 @@ ___________________
 < {} >
 -------------------
         \   ^__^
-         \  (o )\_______
+         \  (oo)\_______
             (__)\       )\/\
                 ||----w |
                 ||     ||
@@ -27,7 +27,7 @@ def main() -> None:
     """Print what the cow says"""
     cowsay = "Moo!"
     if len(sys.argv) > 1:
-        cowsay = sys.argv[1]
+      cowsay = sys.argv[1]
     print(say(cowsay))
 
 if __name__ == "__main__":
