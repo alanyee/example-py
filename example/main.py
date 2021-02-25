@@ -12,7 +12,7 @@ ___________________
                 ||     ||
 """
 
-def say(cowsay: str) -> str:
+def say(cowsay: str) -> int:
     """Interpolates what the cow says
     Reference: https://sphinx-rtd-tutorial.readthedocs.io/en/latest/docstrings.html
     :param cowsay: string for what the cow says
