@@ -1,10 +1,10 @@
 from example import main
 
 
-TEST_COW = """
+TEST_COW = r"""
 ___________________
-< Moo! >
- -------------------
+< {} >
+-------------------
         \   ^__^
          \  (oo)\_______
             (__)\       )\/\
@@ -13,4 +13,4 @@ ___________________
 """
 
 def test_main():
-    assert TEST_COW == main.say("Moo!")
+    assert TEST_COW.format("Moo!") == main.say("Moo!")
