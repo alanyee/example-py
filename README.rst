@@ -8,7 +8,9 @@ Example Template for Python Module Library
     :target: https://github.com/alanyee/example-py/actions/workflows/test.yml
     :alt: Unit Tests
 
-Learn more with https://docs.github.com/en/actions/guides/building-and-testing-python
+Want to know how to create the badge above? Learn more about `GitHub Actions`_ 
+
+.. _GitHub Actions: https://docs.github.com/en/actions/guides/building-and-testing-python
 
 Getting Started
 ---------------
