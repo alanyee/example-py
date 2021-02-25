@@ -1,4 +1,4 @@
-import main
+from example import main
 
 
 TEST_COW = """
