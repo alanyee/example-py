@@ -21,7 +21,7 @@ setup(
     packages=find_packages(exclude=('tests', 'docs')),
     include_package_data=True,
     python_requires='>=3.6',
-    extra_require={
+    extras_require={
         'testing': ["pytest"]
     }
 )
