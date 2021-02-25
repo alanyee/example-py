@@ -8,6 +8,8 @@ Example Template for Python Module Library
     :target: https://github.com/alanyee/example-py/actions/workflows/test.yml
     :alt: Unit Tests
 
+Learn more with https://docs.github.com/en/actions/guides/building-and-testing-python
+
 Getting Started
 ---------------
 Assuming that you have Python 3 installed, set up your environment and install the required dependencies like this:
