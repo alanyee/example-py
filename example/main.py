@@ -13,8 +13,9 @@ ___________________
 """
 
 def say(cowsay: str) -> str:
-    """Interpolates what the cow says
+    """Interpolates what the cow says.
     Reference: https://sphinx-rtd-tutorial.readthedocs.io/en/latest/docstrings.html
+
     :param cowsay: string for what the cow says
     :type cowsay: str
     
